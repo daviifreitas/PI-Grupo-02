@@ -13,15 +13,15 @@ Ferramentas utilizadas:
 
 Ferramentas recomendadas:
 
-ODS:
+ODS: /n
   • https://odsbrasil.gov.br/
   • https://brasil.un.org/pt-br/sdgs
-Artigos:
+Artigos: /n
   • https://scholar.google.com.br/?hl=pt
   • Google Notícias
-Template do Termo de Abertura de Projeto:
+Template do Termo de Abertura de Projeto: /n
   • https://docs.google.com/document/d/17B9mcjkoAfrMg2AIzxTTRtroginXU1qHDoglg3ckHGg/edit?usp=sharing
-Busca de Datasets Relacionados as ODS:
+Busca de Datasets Relacionados as ODS: /n
   • https://www.kaggle.com/datasets
   • http://dados.recife.pe.gov.br/
   • https://dados.gov.br/
