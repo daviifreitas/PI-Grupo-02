@@ -9,13 +9,13 @@ ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de senso
 ![image](https://user-images.githubusercontent.com/79421646/187332619-adeea340-4fc4-45f5-8524-ce911ce2ac41.png)
 
 ## Ferramentas utilizadas:
-<!--<div style="display: inline_block"><br>
+<div style="display: inline_block"><br>
   <img align="center" alt="PI-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="PI-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="PI-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="PI-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
   <img align="center" alt="PI-Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-</div>-->
+</div>
 
 ## Ferramentas recomendadas:
 
@@ -54,7 +54,7 @@ ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de senso
   
 ## Grupo:
 > 
-> <p align="left-center">  • <b>Ândrya Silvestre</b>&nbsp;&nbsp;<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
+> <p align="left-center">  • <b>Ândrya Silvestre</b>&nbsp;&nbsp;<a href="https://github.com/Setoue" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="https://linkedin.com/in/setoue" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
 > 
 > <p align="left-center">  • <b>Augusto Shigeru</b>&nbsp;&nbsp;<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
 > 
