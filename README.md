@@ -19,11 +19,6 @@ ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de senso
 
 ## Ferramentas recomendadas:
 
-> ### ODS: 
->  • [Indicadores Brasileiros para os ODS](https://odsbrasil.gov.br/)
->  
->  • [Nações Unidas | Brasil](https://brasil.un.org/pt-br/sdgs)
-  
 > ### Artigos: 
 >  • [Google Acadêmico](https://scholar.google.com.br/?hl=pt)
 >
