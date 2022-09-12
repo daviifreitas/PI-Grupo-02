@@ -34,4 +34,4 @@ Ferramentas de Prototipação e Construção de Fluxos:
   • https://www.uistore.design/types/figma/
   
   
-Grupo: Ândrya Silvestre, Augusto Shigeru, Davi Freitas, José Egídio, Hugo Antunes, Thais Regina, Thiago Brito, Gabriela Silva
+Grupo: Ândrya Silvestre, Augusto Shigeru, Davi Freitas, Gabriela Silva, José Egídio, Hugo Antunes, Thais Regina e Thiago Brito
