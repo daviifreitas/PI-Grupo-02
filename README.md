@@ -54,7 +54,7 @@ ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de senso
   
 ## Grupo:
 > 
-> <p align="left-center">  • <b>Ândrya Silvestre</b>&nbsp;&nbsp;<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
+> <p align="left-center">  • <b>Ândrya Silvestre</b>&nbsp;&nbsp;<a href="github.com/Setoue" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="linkedin.com/setoue" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
 > 
 > <p align="left-center">  • <b>Augusto Shigeru</b>&nbsp;&nbsp;<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
 > 
