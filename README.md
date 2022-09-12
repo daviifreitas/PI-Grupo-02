@@ -9,7 +9,7 @@ ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de senso
 ![image](https://user-images.githubusercontent.com/79421646/187332619-adeea340-4fc4-45f5-8524-ce911ce2ac41.png)
 
 ## Ferramentas utilizadas:
-<!<div style="display: inline_block"><br>
+<!--<div style="display: inline_block"><br>
   <img align="center" alt="PI-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="PI-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="PI-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
