@@ -1,9 +1,18 @@
 # ProjetoIntegrador_SENAI_2022.2
 
-ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de sensores de um conjunto de máquinas em uma empresa. O aplicativo teria um dashboard informando leitura atual e histórico dos sensores. Vale notar que arquitetura do sistema e servidor aindaserão desenvolvidos, por isso esse aplicativo teria que ser projetado usando algum mockup do servidor e dos dados.
+![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+
+<!-- Foto do projeto
+<img src="exemplo-image.png" alt="exemplo imagem"> 
+-->
+
+ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de sensores de um conjunto de máquinas em uma empresa. O aplicativo teria um dashboard informando leitura atual e histórico dos sensores para analise dos dados obtidos.
+O sistema vai ser projetado usando mockup de dados e através disso vai ser desenvolvido uma analise de dados e a criação de um dashboard. 
 
 ## Objetivo: 
-  Levantamento de apps para monitoramento industrial, acompanhamento de produção.
+  Aplicativo para monitoramento industrial visando a manutenção preventiva dos maquinaríos, assim terá um acompanhamento de produção através de sensores.
 
 ## Ferramentas utilizadas:
 <!-- <div style="display: inline_block"><br>
@@ -17,7 +26,7 @@ ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de senso
   <img align="center" alt="PI-Figma" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="30"/> 
 </div> -->
 
-## Ferramentas recomendadas:
+## Outras ferramentas:
 
 > ### Artigos: 
 >  • [Google Acadêmico](https://scholar.google.com.br/?hl=pt)
@@ -26,13 +35,6 @@ ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de senso
   
 > ### Template do Termo de Abertura de Projeto: 
 >  • [Termo de Abertura do Projeto](https://docs.google.com/document/d/1o66sIrLNT4oXBxt6Sg-Rws7UAl57YWcV4JADrQTMayo/edit?usp=sharing)
-  
-> ### Busca de Datasets Relacionados as ODS: 
->  • [kaggle | Open datasets](https://www.kaggle.com/datasets)
->  
->  • [Dados | Recife](http://dados.recife.pe.gov.br/)
->  
->  • [Dados | Brasil](https://dados.gov.br/)
   
 > ### Trello:
 >  • [Trello](https://trello.com/pt-BR)
@@ -47,7 +49,7 @@ ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de senso
 >  • [UIStore](https://www.uistore.design/types/figma/)
   
   
-## Grupo: 
+## Integrantes: 
 <!-- <p align="left-center">  • <b>Ândrya Silvestre</b>&nbsp;&nbsp;<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
 > 
 > <p align="left-center">  • <b>Augusto Shigeru</b>&nbsp;&nbsp;<a href="https://github.com/Setoue" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="https://linkedin.com/in/setoue" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
