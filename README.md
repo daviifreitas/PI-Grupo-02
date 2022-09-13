@@ -69,7 +69,7 @@ ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de senso
   <tbody>
 <tr>
     <td><p align="left-center"><b>Ândrya Silvestre</b></p></td>
-    <td><a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></td>
+    <td><a href="https://github.com/melgs08" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="https://www.linkedin.com/in/%C3%A2ndrya-silvestre-b20930216" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></td>
   </tr>
  
 <tr>
