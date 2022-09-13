@@ -47,9 +47,8 @@ ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de senso
 >  • [UIStore](https://www.uistore.design/types/figma/)
   
   
-## Grupo:
-> 
-> <p align="left-center">  • <b>Ândrya Silvestre</b>&nbsp;&nbsp;<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
+## Grupo: 
+<!-- <p align="left-center">  • <b>Ândrya Silvestre</b>&nbsp;&nbsp;<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
 > 
 > <p align="left-center">  • <b>Augusto Shigeru</b>&nbsp;&nbsp;<a href="https://github.com/Setoue" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="https://linkedin.com/in/setoue" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
 > 
@@ -64,4 +63,49 @@ ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de senso
 > <p align="left-center">  • <b>Thais Regina</b>&nbsp;&nbsp;<a href="https://github.com/thaispaes" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="https://www.linkedin.com/in/thais-paes-9673651a0/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
 > 
 > <p align="left-center">  • <b>Thiago Brito</b>&nbsp;&nbsp;<a href="https://github.com/BritoThiag0" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="https://www.linkedin.com/in/thiago-brito-cassimiro-da-silva-a50ba214b/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
+-->
+
+> <table>
+  <tbody>
+> <tr>
+    <td><p align="left-center"><b>Ândrya Silvestre</b></p></td>
+    <td><a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p></td>
+  </tr>
 > 
+> <tr>
+    <td><p align="left-center"><b>Augusto Shigeru</b></p></td>
+    <td><p<a href="https://github.com/Setoue" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="https://linkedin.com/in/setoue" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p></td>
+  </tr>
+>
+> <tr>
+    <td><p align="left-center"><b>Davi Freitas</b></p></td>
+    <td><p<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p></td>
+  </tr>
+> 
+> <tr>
+    <td><p align="left-center"><b>Gabriela Silva</b></p></td>
+    <td><p<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p></td>
+  </tr>
+> 
+> <tr>
+    <td><p align="left-center"><b>José Egidio</b></p></td>
+    <td><p<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p></td>
+  </tr>
+> 
+> <tr>
+    <td><p align="left-center"><b>Hugo Antunes</b></p></td>
+    <td><p<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p></td>
+  </tr>
+> 
+> <tr>
+    <td><p align="left-center"><b>Thais Regina</b></p></td>
+    <td><p<a href="https://github.com/thaispaes" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="https://www.linkedin.com/in/thais-paes-9673651a0/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p></td>
+  </tr>
+> 
+> <tr>
+    <td><p align="left-center"><b>Thiago Brito</b></p></td>
+    <td><p<a href="https://github.com/BritoThiag0" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="https://www.linkedin.com/in/thiago-brito-cassimiro-da-silva-a50ba214b/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p></td>
+  </tr>
+> 
+  </tbody>
+ </table>
