@@ -56,7 +56,7 @@ ABDI (Monitoramento de Máquinas): Aplicativo para acompanhar a leitura de senso
 > 
 > <p align="left-center">  • <b>Gabriela Silva</b>&nbsp;&nbsp;<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
 > 
-> <p align="left-center">  • <b>José Egidio</b>&nbsp;&nbsp;<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
+> <p align="left-center">  • <b>José Egidio</b>&nbsp;&nbsp;<a href="https://github.com/SoobinCPRI" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="www.linkedin.com/in/josé-egidio-39ab99224" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
 > 
 > <p align="left-center">  • <b>Hugo Antunes</b>&nbsp;&nbsp;<a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></p>
 > 
