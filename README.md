@@ -91,7 +91,7 @@ O sistema vai ser projetado usando mockup de dados e através disso vai ser dese
 
 <tr>
     <td><p align="left-center"><b>José Egidio</b></p></td>
-    <td><a href="https://github.com/SoobinCPRI" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="www.linkedin.com/in/josé-egidio-39ab99224" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></td>
+    <td><a href="https://github.com/SoobinCPRI" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="https://www.linkedin.com/in/josé-egidio-39ab99224" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></td>
   </tr>
 
 <tr>
