@@ -96,7 +96,7 @@ O sistema vai ser projetado usando mockup de dados e através disso vai ser dese
 
 <tr>
     <td><p align="left-center"><b>Hugo Antunes</b></p></td>
-    <td><a href="" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></td>
+    <td><a href="https://github.com/HugoAntt" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank" align="center"></a><a href="https://www.linkedin.com/in/hugo-antunes-da-silva-b0671a223/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" align="center"></a></td>
   </tr>
 
 <tr>
