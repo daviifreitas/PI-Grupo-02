@@ -1,0 +1,12 @@
+C:\Users\davim\OneDrive\Área de Trabalho\PI _ 20222.2\PI-Grupo-02\PI.Domain\PI.Domain\bin\Debug\net6.0\PI.Domain.deps.json
+C:\Users\davim\OneDrive\Área de Trabalho\PI _ 20222.2\PI-Grupo-02\PI.Domain\PI.Domain\bin\Debug\net6.0\PI.Domain.dll
+C:\Users\davim\OneDrive\Área de Trabalho\PI _ 20222.2\PI-Grupo-02\PI.Domain\PI.Domain\bin\Debug\net6.0\PI.Domain.pdb
+C:\Users\davim\OneDrive\Área de Trabalho\PI _ 20222.2\PI-Grupo-02\PI.Domain\PI.Domain\obj\Debug\net6.0\PI.Domain.csproj.AssemblyReference.cache
+C:\Users\davim\OneDrive\Área de Trabalho\PI _ 20222.2\PI-Grupo-02\PI.Domain\PI.Domain\obj\Debug\net6.0\PI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davim\OneDrive\Área de Trabalho\PI _ 20222.2\PI-Grupo-02\PI.Domain\PI.Domain\obj\Debug\net6.0\PI.Domain.AssemblyInfoInputs.cache
+C:\Users\davim\OneDrive\Área de Trabalho\PI _ 20222.2\PI-Grupo-02\PI.Domain\PI.Domain\obj\Debug\net6.0\PI.Domain.AssemblyInfo.cs
+C:\Users\davim\OneDrive\Área de Trabalho\PI _ 20222.2\PI-Grupo-02\PI.Domain\PI.Domain\obj\Debug\net6.0\PI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\davim\OneDrive\Área de Trabalho\PI _ 20222.2\PI-Grupo-02\PI.Domain\PI.Domain\obj\Debug\net6.0\PI.Domain.dll
+C:\Users\davim\OneDrive\Área de Trabalho\PI _ 20222.2\PI-Grupo-02\PI.Domain\PI.Domain\obj\Debug\net6.0\refint\PI.Domain.dll
+C:\Users\davim\OneDrive\Área de Trabalho\PI _ 20222.2\PI-Grupo-02\PI.Domain\PI.Domain\obj\Debug\net6.0\PI.Domain.pdb
+C:\Users\davim\OneDrive\Área de Trabalho\PI _ 20222.2\PI-Grupo-02\PI.Domain\PI.Domain\obj\Debug\net6.0\ref\PI.Domain.dll
