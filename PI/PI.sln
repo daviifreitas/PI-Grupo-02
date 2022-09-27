@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI.Domain", "PI.Domain\PI.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI.UI", "PI.UI\PI.UI.csproj", "{E2083F54-F777-4956-8332-D6859D02156F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI.Infra.Data", "PI.Infra.Data\PI.Infra.Data.csproj", "{15A187C3-C975-4E27-B800-D1989152C884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI.Infra.IoC", "PI.Infra.IoC\PI.Infra.IoC.csproj", "{8A793208-6949-442A-ADE0-E4ABE396818E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{E2083F54-F777-4956-8332-D6859D02156F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2083F54-F777-4956-8332-D6859D02156F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2083F54-F777-4956-8332-D6859D02156F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A187C3-C975-4E27-B800-D1989152C884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A187C3-C975-4E27-B800-D1989152C884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A187C3-C975-4E27-B800-D1989152C884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A187C3-C975-4E27-B800-D1989152C884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A793208-6949-442A-ADE0-E4ABE396818E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A793208-6949-442A-ADE0-E4ABE396818E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A793208-6949-442A-ADE0-E4ABE396818E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A793208-6949-442A-ADE0-E4ABE396818E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
