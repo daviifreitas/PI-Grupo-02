@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PI.Domain.Entities
 {
-    public class Logs : EntityBase
+    public class Log : EntityBase
     {
         public double Noise { get; set; }
         public double Temp { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PI.Domain.Interfaces
 {
-    public interface ILogsRepository : IBaseRepository<Logs>
+    public interface ILogsRepository : IBaseRepository<Log>
     {
     }
 }

@@ -11,7 +11,7 @@ namespace PI.Domain.Entities
         public double Vibration { get; set; }
         public double Temp { get; set; }
         public double Noise { get; set; }
-        public Logs Log { get; set; }
+        public Log Log { get; set; }
         public Machine Machine { get; set; }
         public DateTime Time { get; set; }
     }
