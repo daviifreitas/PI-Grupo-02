@@ -11,6 +11,7 @@ public static class DependencyInjection
 {
     public static void AddInfrastructure(this IServiceCollection services)
     {
+        //Local connection !!!
         services.AddDbContext<ApplicationContext>(options => options.UseMySql(
             "Server=localhost;Port=3306;Database=pi_db;User=root;Password=root;",
             ServerVersion.Parse("8.0.30-mysql" , ServerType.MySql), m => m.MigrationsAssembly(typeof(ApplicationContext).Assembly.FullName)));
