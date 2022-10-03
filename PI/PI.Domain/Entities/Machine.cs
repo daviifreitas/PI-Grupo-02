@@ -18,10 +18,10 @@ namespace PI.Domain.Entities
         public double NoiseMax { get; set; }
         public double VibrationMin { get; set; }
         public double VibrationMax { get; set; }
-        
         public MachineStatus Status { get; set; }
         public Category Category { get; set; }
         public Enterprise Enterprise { get; set; }
+        public string Location { get; set; }
 
     }
 }

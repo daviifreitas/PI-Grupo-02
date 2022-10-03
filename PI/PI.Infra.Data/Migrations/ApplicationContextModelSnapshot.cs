@@ -61,6 +61,9 @@ namespace PI.Infra.Data.Migrations
                     b.Property<DateTime>("Created_at")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<int>("EnterpriseStatusId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -82,7 +85,24 @@ namespace PI.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("EnterpriseStatusId");
+
                     b.ToTable("Enterprises");
+                });
+
+            modelBuilder.Entity("PI.Domain.Entities.EnterpriseStatus", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EnterpriseStatus");
                 });
 
             modelBuilder.Entity("PI.Domain.Entities.Log", b =>
@@ -138,6 +158,10 @@ namespace PI.Infra.Data.Migrations
                     b.Property<int>("EnterpriseId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Model")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -151,6 +175,9 @@ namespace PI.Infra.Data.Migrations
                     b.Property<string>("SerialNumber")
                         .IsRequired()
                         .HasColumnType("longtext");
+
+                    b.Property<int>("StatusId")
+                        .HasColumnType("int");
 
                     b.Property<double>("TempMax")
                         .HasColumnType("double");
@@ -173,7 +200,24 @@ namespace PI.Infra.Data.Migrations
 
                     b.HasIndex("EnterpriseId");
 
+                    b.HasIndex("StatusId");
+
                     b.ToTable("Machines");
+                });
+
+            modelBuilder.Entity("PI.Domain.Entities.MachineStatus", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MachineStatus");
                 });
 
             modelBuilder.Entity("PI.Domain.Entities.OutlierRegister", b =>
@@ -215,6 +259,17 @@ namespace PI.Infra.Data.Migrations
                     b.ToTable("OutlierRegisters");
                 });
 
+            modelBuilder.Entity("PI.Domain.Entities.Enterprise", b =>
+                {
+                    b.HasOne("PI.Domain.Entities.EnterpriseStatus", "EnterpriseStatus")
+                        .WithMany()
+                        .HasForeignKey("EnterpriseStatusId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("EnterpriseStatus");
+                });
+
             modelBuilder.Entity("PI.Domain.Entities.Log", b =>
                 {
                     b.HasOne("PI.Domain.Entities.Machine", "Machine")
@@ -240,9 +295,17 @@ namespace PI.Infra.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("PI.Domain.Entities.MachineStatus", "Status")
+                        .WithMany()
+                        .HasForeignKey("StatusId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Category");
 
                     b.Navigation("Enterprise");
+
+                    b.Navigation("Status");
                 });
 
             modelBuilder.Entity("PI.Domain.Entities.OutlierRegister", b =>
