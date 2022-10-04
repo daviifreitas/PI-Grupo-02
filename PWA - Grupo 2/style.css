@@ -14,6 +14,8 @@ header {
 .logo {
     border-radius: 50%;
     padding: 10px;
+    margin: auto;
+    display: block;
 }
 
 ul li{
@@ -103,3 +105,87 @@ img{
     top: 639px;
 }
 
+/*----------------------------------------- */
+/* Tela de Login */
+.header{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 375px;
+    max-height: 171px;
+    left: 0px;
+    top: 0px;
+    background-color: #006666;
+    color: white;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.principalLogin {
+    position: fixed;
+    width: 100%;
+    height: 110%;
+    max-width: 375px;
+    max-height: 595px;
+    left: 0px;
+    top: 190px;
+    background: #FFFFFF;
+}
+
+.logoLogin {
+    border-radius: 50%;
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
+
+form, label {
+    display: block;
+    padding: 10px;
+}
+
+form {
+    width: 270px;
+    margin: 10px;
+}
+
+label {
+    color: #006666;
+    text-align: right;
+}
+
+input {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.entrar {
+    padding: 5px;
+    color: #000000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    display: block;
+}
+
+.sCadastro{
+    text-align: center;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 0%;
+}
+
+.cadastre{
+    background-color: white;
+    border: none;
+    color: #006666;
+    font-size: 120%;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0%;
+    width: 6em;
+    display: block;
+}

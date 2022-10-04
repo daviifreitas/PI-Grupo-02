@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("PI.Application")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PI.Infra.IoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("PI.Application")]
-[assembly: System.Reflection.AssemblyTitleAttribute("PI.Application")]
+[assembly: System.Reflection.AssemblyProductAttribute("PI.Infra.IoC")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PI.Infra.IoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
