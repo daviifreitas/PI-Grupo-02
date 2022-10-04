@@ -1,0 +1,44 @@
+header{
+    width: auto;
+    height: 150px;
+    background-color: #006666;
+    border-bottom-left-radius: 18%;
+    border-bottom-right-radius: 18%;
+}
+
+.Login {
+
+    color: #006666;
+    font-size: 100%;
+
+}
+
+.input{
+    border: none;
+    border-bottom: solid 1px;
+    color: #006666;
+    margin-bottom: 15%;
+    padding: 15%;
+
+
+}
+
+.sCadastro{
+    text-align: center;
+    font-size: 120%;
+
+}
+
+.aa{
+    text-decoration: none;
+
+}
+
+.cadastre{
+    background-color: white;
+    border: none;
+    color: #006666;
+    font-size: 120%;
+    text-decoration: none;
+
+}
