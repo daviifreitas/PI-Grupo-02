@@ -11,6 +11,7 @@ public class EnterpriseRepository : BaseRepository<Enterprise>, IEnterpriseRepos
     }
     
     public bool Login(string username, string password) => GetAll().
+                            Result.
                             Where(enterprises => enterprises.Cnpj == username 
                              && enterprises.Password == password).Any();
     

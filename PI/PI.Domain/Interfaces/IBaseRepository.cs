@@ -8,10 +8,10 @@ namespace PI.Domain.Interfaces
 {
     public interface IBaseRepository<T> where T : class
     {
-        void Add(T entity);
-        void RemoveById(int entityId);
-        T GetById(int entityId);
-        IEnumerable<T> GetAll();
-        void Update(T entity);
+        Task Add(T entity);
+        Task RemoveById(int entityId);
+        Task<T> GetById(int entityId);
+        Task<IEnumerable<T>> GetAll();
+        Task Update(T entity);
     }
 }

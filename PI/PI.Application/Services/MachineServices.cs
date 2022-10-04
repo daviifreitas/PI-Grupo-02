@@ -24,13 +24,13 @@ public class MachineServices : IMachineService
 
     public async Task<List<MachinesForListViewModel>> GetAll(int enterpriseId)
     {
-        bool any = _enterpriseRepository.GetAll().Any(enterprise => enterprise.Id == enterpriseId);
+        bool any = _enterpriseRepository.GetAll().Result.Any(enterprise => enterprise.Id == enterpriseId);
 
         if (any)
         {
-            IEnumerable<Log> logs = _logRepository.GetAll();
+            IEnumerable<Log> logs = await _logRepository.GetAll();
 
-            IEnumerable<Machine> machines = _machineRepository.GetAll().Where(machine => machine.Enterprise.Id == enterpriseId);
+            IEnumerable<Machine> machines = _machineRepository.GetAll().Result.Where(machine => machine.Enterprise.Id == enterpriseId);
 
             List<MachinesForListViewModel> machinesforView = new List<MachinesForListViewModel>();
 
@@ -38,7 +38,7 @@ public class MachineServices : IMachineService
             {
                 DateTime dateTime = logs.Where(log => log.Machine.Id == machine.Id).Max(log => log.Created_at);
 
-                Log logOfMachine = _logRepository.GetAll()
+                Log logOfMachine = _logRepository.GetAll().Result
                     .Where(log => log.Machine.Id == machine.Id && log.Created_at == dateTime).FirstOrDefault();
                 
                 machinesforView.Add(new MachinesForListViewModel()
@@ -81,7 +81,7 @@ public class MachineServices : IMachineService
 
     public async Task<bool> CreateNewMachine(AddMachineViewModel model)
     {
-        Machine byId = _machineRepository.GetById(model.Id);
+        Machine byId = await _machineRepository.GetById(model.Id);
 
         if (byId != null) return false;
 
@@ -98,18 +98,18 @@ public class MachineServices : IMachineService
             VibrationMin = model.MimVibration,
             Created_at = DateTime.Now,
             Status = AddStatusInMachine(model.Status),
-            Enterprise = _enterpriseRepository.GetById(model.EnterpriseId), 
+            Enterprise = await _enterpriseRepository.GetById(model.EnterpriseId), 
             Location = model.Location 
         }; 
         
-        _machineRepository.Add(machineForAddInDb);
+        await _machineRepository.Add(machineForAddInDb);
 
         return true; 
     }
 
     private MachineStatus AddStatusInMachine(string modelStatus)
     {
-        MachineStatus? firstOrDefault = _machineStatusRepository.GetAll().FirstOrDefault(machineStatus => machineStatus.Name == modelStatus);
+        MachineStatus? firstOrDefault = _machineStatusRepository.GetAll().Result.FirstOrDefault(machineStatus => machineStatus.Name == modelStatus);
 
         return firstOrDefault;
     }

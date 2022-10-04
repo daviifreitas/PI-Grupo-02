@@ -12,7 +12,7 @@ public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
 
     public Category GetByName(string nameOfcategory)
     {
-        Category? firstOrDefault = GetAll().FirstOrDefault(category => category.Name == nameOfcategory);
+        Category? firstOrDefault =  GetAll().Result.FirstOrDefault(category => category.Name == nameOfcategory);
 
         return firstOrDefault;
     }

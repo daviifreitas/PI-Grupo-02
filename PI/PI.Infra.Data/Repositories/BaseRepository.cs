@@ -12,29 +12,29 @@ public class BaseRepository<T> : IBaseRepository<T>  where T : class
         _context = applicationContext;
     }
 
-    public void Add(T entity)
+    public async Task Add(T entity)
     {
         _context.Set<T>().Add(entity);
         _context.SaveChanges();
     }
 
-    public void RemoveById(int entityId)
+    public async Task RemoveById(int entityId)
     {
-        _context.Set<T>().Remove(GetById(entityId));
+        _context.Set<T>().Remove(await GetById(entityId));
         _context.SaveChanges();
     }
 
-    public T GetById(int entityId)
+    public async Task<T> GetById(int entityId)
     {
         return _context.Set<T>().Find(entityId);
     }
 
-    public IEnumerable<T> GetAll()
+    public async Task<IEnumerable<T>> GetAll()
     {
         return _context.Set<T>().AsEnumerable();
     }
 
-    public void Update(T entity)
+    public async Task Update(T entity)
     {
         _context.Set<T>().Update(entity);
         _context.SaveChanges();
