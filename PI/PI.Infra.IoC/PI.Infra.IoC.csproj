@@ -12,6 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\PI.Application\PI.Application.csproj" />
       <ProjectReference Include="..\PI.Domain\PI.Domain.csproj" />
       <ProjectReference Include="..\PI.Infra.Data\PI.Infra.Data.csproj" />
     </ItemGroup>

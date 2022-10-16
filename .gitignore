@@ -1,0 +1,25 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/PI/PI.Infra.IoC/obj/Release/net6.0
+*.dll
+/PI/PI.Web/obj/Release/net6.0
+/PI/PI.Infra.IoC/bin/Debug/net6.0
+/PI/PI.Infra.Data/obj/Release/net6.0
+/PI/PI.Infra.Data/bin/Debug/net6.0
+/PI/PI.Domain/obj/Release/net6.0
+/PI/PI.Domain/bin/Debug/net6.0
+/PI/PI.Application/obj/Release/net6.0
+/.vs/PI-Grupo-02/FileContentIndex
+*.suo
+*.v2
+*.vsidx
+*.lock
+*.cache
+*.pdb
+*.json
+*.props
+*.CopyComplete
+*.targets
+*.txt

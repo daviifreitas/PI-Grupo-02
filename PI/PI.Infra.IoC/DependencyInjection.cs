@@ -1,5 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using PI.Application.Intefaces;
+using PI.Application.Services;
 using PI.Domain.Interfaces;
 using PI.Infra.Data.Context;
 using PI.Infra.Data.Repositories;
@@ -9,7 +12,7 @@ namespace PI.Infra.IoC;
 
 public static class DependencyInjection
 {
-    public static void AddInfrastructure(this IServiceCollection services)
+    public static void AddInfrastructure(this IServiceCollection services, ConfigurationManager config)
     {
         //Local connection !!!
         services.AddDbContext<ApplicationContext>(options => options.UseMySql(
@@ -22,8 +25,20 @@ public static class DependencyInjection
         services.AddScoped<ILogsRepository, LogsRepository>();
         services.AddScoped<IMachineRepository, MachineRepository>();
         services.AddScoped<IOutlierRegisterRepository, OutlierRegisterRepository>();
-        
+        services.AddScoped<IOutlierRegisterRepository, OutlierRegisterRepository>();
+        services.AddScoped<IMachineCategoryRepository, CategoryRepository>();
+        services.AddScoped<IUserSupportRepository, UserSupportRepository>();
+        services.AddScoped<IEnterpriseStatusRepository, EnterpriseStatusRepository>();
+        services.AddScoped<IMachineStatusRepository, MachineStatusRepository>();
+
         #endregion
 
+
+        #region services
+
+        services.AddScoped<IEnterpriseService, EnterpriseService>();
+        services.AddScoped<IMachineService, MachineServices>();
+
+        #endregion
     }
 }

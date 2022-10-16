@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PI.Infra.IoC", "PI.Infra.Io
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PI.Application", "PI.Application\PI.Application.csproj", "{836D8BE7-292E-45E2-B3D0-46C266E52B0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI.Web", "PI.Web\PI.Web.csproj", "{ADE7065D-81D6-4C07-87A5-D19C002022C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PI.Web", "PI.Web\PI.Web.csproj", "{ADE7065D-81D6-4C07-87A5-D19C002022C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

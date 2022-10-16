@@ -10,10 +10,10 @@ public class MachineServices : IMachineService
     private readonly IMachineRepository _machineRepository;
     private readonly IEnterpriseRepository _enterpriseRepository;
     private readonly ILogsRepository _logRepository;
-    private readonly ICategoryRepository _categoryRepository;
+    private readonly IMachineCategoryRepository _categoryRepository;
     private readonly IMachineStatusRepository _machineStatusRepository;
 
-    public MachineServices(IMachineRepository machineRepository, IEnterpriseRepository enterpriseRepository, ILogsRepository logRepository, ICategoryRepository categoryRepository, IMachineStatusRepository machineStatusRepository)
+    public MachineServices(IMachineRepository machineRepository, IEnterpriseRepository enterpriseRepository, ILogsRepository logRepository, IMachineCategoryRepository categoryRepository, IMachineStatusRepository machineStatusRepository)
     {
         _machineRepository = machineRepository;
         _enterpriseRepository = enterpriseRepository;
@@ -39,7 +39,7 @@ public class MachineServices : IMachineService
                 DateTime dateTime = logs.Where(log => log.Machine.Id == machine.Id).Max(log => log.Created_at);
 
                 Log logOfMachine = _logRepository.GetAll().Result
-                    .Where(log => log.Machine.Id == machine.Id && log.Created_at == dateTime).FirstOrDefault();
+                    .Where(log => log.Machine.Id == machine.Id).MaxBy(log => log.Created_at);
                 
                 machinesforView.Add(new MachinesForListViewModel()
                 {
@@ -114,9 +114,9 @@ public class MachineServices : IMachineService
         return firstOrDefault;
     }
 
-    private Category AddCategoryInMachine(string modelCategory)
+    private MachineCategory AddCategoryInMachine(string modelCategory)
     {
-        Category byName = _categoryRepository.GetByName(modelCategory);
+        MachineCategory byName = _categoryRepository.GetByName(modelCategory);
         return byName;
     }
 } 

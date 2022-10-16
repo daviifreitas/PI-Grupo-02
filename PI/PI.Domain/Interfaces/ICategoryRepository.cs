@@ -2,7 +2,7 @@
 
 namespace PI.Domain.Interfaces;
 
-public interface ICategoryRepository : IBaseRepository<Category>
+public interface IMachineCategoryRepository : IBaseRepository<MachineCategory>
 {
-    Category GetByName(string nameOfcategory);
+    MachineCategory GetByName(string nameOfcategory);
 }

@@ -10,7 +10,9 @@
         public string Address { get; set; }
         public string City { get; set; }
         public string State { get; set; }
-        public int NumberOfLocation { get; set; }
+        public string NumberOfLocation { get; set; }
+
+        public IEnumerable<MachineCategory>? MachineCategories {get; set;}
         public EnterpriseStatus EnterpriseStatus { get; set; }
     }
 }

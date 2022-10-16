@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wbkA41xyFhEIHRAdlasD2iMFxUkGEYWRCafRRUw5niChyNHjqzd81n5hi+O8E6gA4cnYlDUvn0VPkThbOt5yrw==",
+  "dgSpecHash": "FrMvy+5m1R4jG1uWON7abUQf0b3zT/WV4aWlxxaA8lLXYwGET74TKFGlg1YNlT5KBRnaH9DLaxbOsr8hKxtR6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\davim\\OneDrive\\Área de Trabalho\\Estudos\\Lab\\Lab01\\PI-Grupo-02\\PI\\PI.Web\\PI.Web.csproj",
+  "projectFilePath": "C:\\Users\\davim\\source\\repos\\daviifreitas\\PI-Grupo-02\\PI\\PI.Web\\PI.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\davim\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\davim\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.9\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.9.nupkg.sha512",
@@ -22,6 +22,7 @@
     "C:\\Users\\davim\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\davim\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\davim\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
+    "C:\\Users\\davim\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\davim\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.2\\pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
     "C:\\Users\\davim\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\davim\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

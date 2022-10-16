@@ -4,15 +4,15 @@ using PI.Infra.Data.Context;
 
 namespace PI.Infra.Data.Repositories;
 
-public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
+public class CategoryRepository : BaseRepository<MachineCategory>, IMachineCategoryRepository
 {
     public CategoryRepository(ApplicationContext applicationContext) : base(applicationContext)
     {
     }
 
-    public Category GetByName(string nameOfcategory)
+    public MachineCategory GetByName(string nameOfcategory)
     {
-        Category? firstOrDefault =  GetAll().Result.FirstOrDefault(category => category.Name == nameOfcategory);
+        MachineCategory? firstOrDefault =  GetAll().Result.FirstOrDefault(category => category.Name == nameOfcategory);
 
         return firstOrDefault;
     }

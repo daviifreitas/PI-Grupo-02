@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davim\\OneDrive\\Área de Trabalho\\Estudos\\Lab\\Lab01\\PI-Grupo-02\\PI\\PI.Application\\PI.Application.csproj": {}
+    "C:\\Users\\davim\\source\\repos\\daviifreitas\\PI-Grupo-02\\PI\\PI.Application\\PI.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davim\\OneDrive\\Área de Trabalho\\Estudos\\Lab\\Lab01\\PI-Grupo-02\\PI\\PI.Application\\PI.Application.csproj": {
+    "C:\\Users\\davim\\source\\repos\\daviifreitas\\PI-Grupo-02\\PI\\PI.Application\\PI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davim\\OneDrive\\Área de Trabalho\\Estudos\\Lab\\Lab01\\PI-Grupo-02\\PI\\PI.Application\\PI.Application.csproj",
+        "projectUniqueName": "C:\\Users\\davim\\source\\repos\\daviifreitas\\PI-Grupo-02\\PI\\PI.Application\\PI.Application.csproj",
         "projectName": "PI.Application",
-        "projectPath": "C:\\Users\\davim\\OneDrive\\Área de Trabalho\\Estudos\\Lab\\Lab01\\PI-Grupo-02\\PI\\PI.Application\\PI.Application.csproj",
+        "projectPath": "C:\\Users\\davim\\source\\repos\\daviifreitas\\PI-Grupo-02\\PI\\PI.Application\\PI.Application.csproj",
         "packagesPath": "C:\\Users\\davim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davim\\OneDrive\\Área de Trabalho\\Estudos\\Lab\\Lab01\\PI-Grupo-02\\PI\\PI.Application\\obj\\",
+        "outputPath": "C:\\Users\\davim\\source\\repos\\daviifreitas\\PI-Grupo-02\\PI\\PI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\davim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\davim\\OneDrive\\Área de Trabalho\\Estudos\\Lab\\Lab01\\PI-Grupo-02\\PI\\PI.Domain\\PI.Domain.csproj": {
-                "projectPath": "C:\\Users\\davim\\OneDrive\\Área de Trabalho\\Estudos\\Lab\\Lab01\\PI-Grupo-02\\PI\\PI.Domain\\PI.Domain.csproj"
+              "C:\\Users\\davim\\source\\repos\\daviifreitas\\PI-Grupo-02\\PI\\PI.Domain\\PI.Domain.csproj": {
+                "projectPath": "C:\\Users\\davim\\source\\repos\\daviifreitas\\PI-Grupo-02\\PI\\PI.Domain\\PI.Domain.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\davim\\OneDrive\\Área de Trabalho\\Estudos\\Lab\\Lab01\\PI-Grupo-02\\PI\\PI.Domain\\PI.Domain.csproj": {
+    "C:\\Users\\davim\\source\\repos\\daviifreitas\\PI-Grupo-02\\PI\\PI.Domain\\PI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davim\\OneDrive\\Área de Trabalho\\Estudos\\Lab\\Lab01\\PI-Grupo-02\\PI\\PI.Domain\\PI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\davim\\source\\repos\\daviifreitas\\PI-Grupo-02\\PI\\PI.Domain\\PI.Domain.csproj",
         "projectName": "PI.Domain",
-        "projectPath": "C:\\Users\\davim\\OneDrive\\Área de Trabalho\\Estudos\\Lab\\Lab01\\PI-Grupo-02\\PI\\PI.Domain\\PI.Domain.csproj",
+        "projectPath": "C:\\Users\\davim\\source\\repos\\daviifreitas\\PI-Grupo-02\\PI\\PI.Domain\\PI.Domain.csproj",
         "packagesPath": "C:\\Users\\davim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davim\\OneDrive\\Área de Trabalho\\Estudos\\Lab\\Lab01\\PI-Grupo-02\\PI\\PI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\davim\\source\\repos\\daviifreitas\\PI-Grupo-02\\PI\\PI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\davim\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -19,25 +19,19 @@ namespace PI.Infra.Data.Migrations
                 .HasAnnotation("ProductVersion", "6.0.9")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("PI.Domain.Entities.Category", b =>
+            modelBuilder.Entity("EnterpriseMachineCategory", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("EnterprisesId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("Created_at")
-                        .HasColumnType("datetime(6)");
+                    b.Property<int>("MachineCategoriesId")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.HasKey("EnterprisesId", "MachineCategoriesId");
 
-                    b.Property<DateTime>("Updated_at")
-                        .HasColumnType("datetime(6)");
+                    b.HasIndex("MachineCategoriesId");
 
-                    b.HasKey("Id");
-
-                    b.ToTable("Category");
+                    b.ToTable("EnterpriseMachineCategory");
                 });
 
             modelBuilder.Entity("PI.Domain.Entities.Enterprise", b =>
@@ -64,7 +58,11 @@ namespace PI.Infra.Data.Migrations
                     b.Property<int>("EnterpriseStatusId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("FantasyName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("NumberOfLocation")
                         .IsRequired()
                         .HasColumnType("longtext");
 
@@ -73,6 +71,10 @@ namespace PI.Infra.Data.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("Sector")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("SocialReason")
                         .IsRequired()
                         .HasColumnType("longtext");
 
@@ -102,7 +104,7 @@ namespace PI.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("EnterpriseStatus");
+                    b.ToTable("Enterprise_status");
                 });
 
             modelBuilder.Entity("PI.Domain.Entities.Log", b =>
@@ -205,6 +207,27 @@ namespace PI.Infra.Data.Migrations
                     b.ToTable("Machines");
                 });
 
+            modelBuilder.Entity("PI.Domain.Entities.MachineCategory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created_at")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("Updated_at")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Machine_category");
+                });
+
             modelBuilder.Entity("PI.Domain.Entities.MachineStatus", b =>
                 {
                     b.Property<int>("Id")
@@ -217,7 +240,7 @@ namespace PI.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("MachineStatus");
+                    b.ToTable("Machine_status");
                 });
 
             modelBuilder.Entity("PI.Domain.Entities.OutlierRegister", b =>
@@ -259,6 +282,77 @@ namespace PI.Infra.Data.Migrations
                     b.ToTable("OutlierRegisters");
                 });
 
+            modelBuilder.Entity("PI.Domain.Entities.ProblemsCategory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created_at")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("Updated_at")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("us_problems_category");
+                });
+
+            modelBuilder.Entity("PI.Domain.Entities.UserSupport", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created_at")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("EnterpriseId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProblemsCategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("RepresentativoOfEnterpriseAddress")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("Updated_at")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EnterpriseId");
+
+                    b.HasIndex("ProblemsCategoryId");
+
+                    b.ToTable("UserSupports");
+                });
+
+            modelBuilder.Entity("EnterpriseMachineCategory", b =>
+                {
+                    b.HasOne("PI.Domain.Entities.Enterprise", null)
+                        .WithMany()
+                        .HasForeignKey("EnterprisesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("PI.Domain.Entities.MachineCategory", null)
+                        .WithMany()
+                        .HasForeignKey("MachineCategoriesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("PI.Domain.Entities.Enterprise", b =>
                 {
                     b.HasOne("PI.Domain.Entities.EnterpriseStatus", "EnterpriseStatus")
@@ -283,7 +377,7 @@ namespace PI.Infra.Data.Migrations
 
             modelBuilder.Entity("PI.Domain.Entities.Machine", b =>
                 {
-                    b.HasOne("PI.Domain.Entities.Category", "Category")
+                    b.HasOne("PI.Domain.Entities.MachineCategory", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -325,6 +419,25 @@ namespace PI.Infra.Data.Migrations
                     b.Navigation("Log");
 
                     b.Navigation("Machine");
+                });
+
+            modelBuilder.Entity("PI.Domain.Entities.UserSupport", b =>
+                {
+                    b.HasOne("PI.Domain.Entities.Enterprise", "Enterprise")
+                        .WithMany()
+                        .HasForeignKey("EnterpriseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("PI.Domain.Entities.ProblemsCategory", "ProblemsCategory")
+                        .WithMany()
+                        .HasForeignKey("ProblemsCategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Enterprise");
+
+                    b.Navigation("ProblemsCategory");
                 });
 #pragma warning restore 612, 618
         }

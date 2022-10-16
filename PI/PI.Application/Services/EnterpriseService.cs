@@ -44,10 +44,13 @@ public class EnterpriseService : IEnterpriseService
                 FantasyName = model.FantasyName,
                 SocialReason = model.SocialReason,
                 Address = model.Address,
+                Password = model.Password,
                 City = model.City,
                 NumberOfLocation = model.NumberOfLocation,
                 Sector = model.Sector,
-                EnterpriseStatus =  _enterpriseStatusRepository.GetAll().Result.FirstOrDefault(status => status.Name == "ACTIVE")
+                Cnpj = model.CNPJ,
+                EnterpriseStatus =  _enterpriseStatusRepository.GetAll().Result.FirstOrDefault(status => status.Name == "ACTIVE"),
+                State= model.State
             };
 
             await _enterpriseRepository.Add(enterpriseForAddInDb);
