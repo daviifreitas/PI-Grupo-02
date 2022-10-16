@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-color: #006666;
+}
+
+
+.tituloHeader{
+    width: 100%;
+    color:#fff;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 30px;
+    position: fixed;
+    height: 120px;
+    
+}
+
+.seta{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    
+}
+
+main{
+    background-color: #fff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 18%;
+}
+
+.botaoModeloMaquina{
+    appearance: none;
+    padding: 2rem;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    background-color: #D6D6D6;
+    color: #474747;
+    font-size: 25px;
+    text-align: left;
+}
+
+.Maquina{
+    font-size: 25px;
+    color: #006666;
+}
+
+.SeriePalavra{
+    font-size: 20px;
+}
+
+.NumeroSerie{
+    font-size: 20px;
+    color:#006666;
+
+}
+
+.MarcaPalavra{
+    font-size: 20px;
+
+}
+
+.MarcaNome{
+    font-size: 20px;
+    color: #006666;
+
+}
